@@ -1,0 +1,30 @@
+@font-face {
+  font-family: ArialBold;
+  src: url("fonts/ArialBold.ttf");
+}
+
+@font-face {
+  font-family: ArialCustom;
+  src: url("fonts/Arial.ttf");
+}
+
+@font-face {
+  font-family: CliftonTrialRegular;
+  src: url("fonts/CliftonTrial-Regular.otf");
+}
+
+@font-face {
+  font-family: FavoritMonoTrialMedium;
+  src: url("fonts/FavoritMonoTrial-Medium.otf");
+}
+
+@font-face {
+  font-family: savateregular;
+  src: url("fonts/savate-regular.otf");
+}
+
+@font-face {
+  font-family: TimesCustom, Sans-serif;
+  src: url("fonts/Times.ttc");
+  font-weight: 100;
+}

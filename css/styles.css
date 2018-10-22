@@ -1,0 +1,404 @@
+@import url("fonts.css");
+@import url("fontawesome/css/all.min.css");
+
+/* Reset things here */
+p, h1, h2, h3, h4, h5, h6, div, ol, ul, label, a {
+  margin: 0 0;
+  padding: 0 0
+}
+
+body {
+  line-height: 1.6;
+  margin: 0 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:hover {
+  transition: 0.5s;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+}
+
+img {
+  object-fit: contain;
+}
+
+.container {
+  width: 90%;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+.url-link {
+  text-decoration: none;
+  color: #0000ff;
+  text-transform: uppercase;
+  font-family: TimesCustom;
+}
+
+.url-link:hover {
+  text-decoration: underline;
+}
+
+.relative-point {
+  position: relative;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* This is for the home page index.html */
+.title-container {
+  margin-top: 45vh;
+  padding: 5px 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.hover-image {
+  position: absolute;
+  display: none;
+  z-index: -1;
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+/* End of index.html */
+
+/* This is for the content page page2.html */
+.about-txt {
+  font-family: TimesCustom;
+  text-align: center;
+}
+
+.linear-arrow-container {
+  width:  150px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.linear-arrow {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+  font-size: 100px;
+  color: #fff;
+  -webkit-animation: movedown 1000ms linear forwards;
+  -moz-animation: movedown 1000ms linear forwards;
+  -ms-animation: movedown 1000ms linear forwards;
+  animation: movedown 1000ms linear forwards;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+
+@keyframes movedown {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 200px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes movedown {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 200px;
+    opacity: 0
+  }
+}
+
+@-moz-keyframes movedown {
+  0% {
+    margin-top: 0;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 200px;
+    opacity: 0;
+  }
+}
+
+
+.top-bg {
+  background-image: linear-gradient(#00FF00, #fff 90%);
+}
+
+.column-right {
+  width: 32%;
+  float: right;
+}
+
+.column-center {
+  width: 32%;
+  display: inline-block;
+}
+
+.column-left {
+  width: 32%;
+  float: left;
+}
+
+.img1 {
+  width: 250px;
+  height: auto;
+  margin-left: 25px;
+}
+
+.img1-container {
+  margin-top: 100px;
+}
+
+.img2-container {
+  padding-left: 25px;
+}
+
+.img2 {
+  width: 600px;
+}
+
+.img3 {
+  width: 414px;
+}
+
+.img3-container {
+  margin-left: 150px;
+  margin-top: 270px;
+}
+
+
+.img4-container {
+  text-align: left;
+  z-index: -1;
+  position: relative;
+}
+
+.img4 {
+  width: 500px;
+  position: relative;
+  z-index: 9000;
+}
+
+.img5-container {
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.img5 {
+  width: 100%;
+}
+.inner-img5 {
+  display: inline-block;
+  vertical-align: top;
+  width: 68%;
+}
+
+.img6 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top
+}
+
+.img7-container {
+  margin-left: -100px;
+}
+
+.img7 {
+  width: 500px;
+}
+
+.img8-container {
+  float: right;
+}
+
+.img8 {
+  width: 200px;
+  margin-top: 200px;
+}
+
+.img9-container {
+  margin-right: 50px;
+  width: 600px;
+}
+
+.img9 {
+  width: 100%;
+}
+
+.img10 {
+  width: 90px;
+}
+
+.img10-container {
+  text-align: center;
+  margin-top: 420px;
+}
+
+.img11-container {
+  position: relative;
+}
+
+.img11 {
+  width: 500px;
+}
+
+.img12 {
+  width: 600px;
+}
+
+.img13 {
+  width: 550px;
+}
+
+.img14 {
+  width: 600px;
+}
+
+.img14-container {
+  float: right;
+}
+
+.img15 {
+  float: right;
+}
+
+.img16 {
+  position: absolute;
+  left: -80px;
+  bottom: 20px;
+  float: left;
+  width: 150px;
+}
+
+.img17-container {
+  margin-top: 500px;
+  margin-left: 300px;
+}
+
+.img17 {
+  width: 600px;
+}
+
+.img18 {
+  width: 190px;
+}
+
+.img18-container {
+  margin-top: 250px;
+  margin-right: 90px;
+  float: right;
+}
+
+.img19 {
+  width: 900px;
+}
+
+.img20 {
+  width: 200px;
+}
+
+.circle-shadow {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.circle-yellow {
+  background-color: rgba(255, 255, 0, 0.6);
+  -webkit-box-shadow: 10px 11px 201px 43px rgba(255,255,0,1);
+  -moz-box-shadow: 10px 11px 201px 43px rgba(255,255,0,1);
+  box-shadow: 10px 11px 201px 43px rgba(255,255,0,1);
+}
+
+.circle-pink {
+  background-color: rgba(255, 192, 203, 0.6);
+  -webkit-box-shadow: 10px 11px 201px 43px rgba(255,192,203,1);
+  -moz-box-shadow: 10px 11px 201px 43px rgba(255,192,203,1);
+  box-shadow: 10px 11px 201px 43px rgba(255,192,203,1);
+}
+
+.circle-blue {
+  background-color: rgba(0, 0, 255, 0.6);
+  -webkit-box-shadow: 10px 11px 201px 43px rgba(0, 0, 255,1);
+  -moz-box-shadow: 10px 11px 201px 43px rgba(0, 0, 255,1);
+  box-shadow: 10px 11px 201px 43px rgba(0, 0, 255,1);
+}
+
+
+.txt-container {
+  color: #0000ff;
+  text-align: justify;
+  font-family: ArialBold, sans-serif;
+  font-size: 20px;
+  display: inline;
+}
+
+.txt-container > p {
+  display: inline;
+  margin-top: -5px;
+  padding: 5px 5px;
+}
+
+.txt-container:hover>p {
+  background-color: #0000ff;
+  color: #fff;
+}
+
+.top {
+  display: inline-block;
+  vertical-align:middle;
+  color:  #0000ff;
+  font-size: 46px;
+  font-family: ArialCustom, sans-serif;
+}
+
+/* End of page2.html */
+
+.top-bg-about {
+  background-image: linear-gradient(#00FF00, #fff 50%);
+  text-align: center;
+}
+.about-img {
+  width: 450px;
+}
+
+.about-box {
+  width: 30%;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 21vh;
+  background-color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-family: FavoritMonoTrialMedium,sans-serif;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0px 0px 71px 25px rgba(136,140,209,1);
+  -moz-box-shadow: 0px 0px 71px 25px rgba(136,140,209,1);
+  box-shadow: 0px 0px 71px 25px rgba(136,140,209,1);
+}
+
+.back-btn {
+  float:right;
+  position: relative;
+  margin-right: 50px;
+}
+
+.back-btn>a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 80px;
+}
